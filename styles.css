@@ -4,7 +4,7 @@ Generic Style
 
 body {
     margin: 0 8%;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .animate{
@@ -42,6 +42,12 @@ Fonts section
 .ubuntu {font-family: 'ubuntu', sans-serif;}
 .mali {font-family: 'mali', sans-serif;}
 
+/*------------------
+Text-style section
+------------------*/
+
+.text-style {width: 100%; border: 2px solid lightslategray; padding: 2%; margin: 10px 0; border-radius: 4px;}
+.text-style__block {display: inline-block; width: 45%;}
 
 /* clearfix */
 
