@@ -49,6 +49,19 @@ Text-style section
 .text-style {width: 100%; border: 2px solid lightslategray; padding: 2%; margin: 10px 0; border-radius: 4px;}
 .text-style__block {display: inline-block; width: 45%;}
 
+/*------------------
+Phone-view
+------------------*/
+@media (max-width: 767px) {
+	/*fonts section*/
+	.fonts__font {width: 100%;}
+
+	/*text-style-section*/
+	.text-style__block {width: 100%;}
+}	
+
+
+
 /* clearfix */
 
 .clearfix:after {
